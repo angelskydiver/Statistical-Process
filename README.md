@@ -14,6 +14,32 @@
 
 ---
 
+## Portfolio Value
+
+This repository demonstrates industrial analytics and explainable monitoring skills. It moves from classic univariate control charts to PCA/PLS-based multivariate monitoring, showing how process engineers detect abnormal behavior, diagnose contributing variables, and evaluate monitoring performance.
+
+```mermaid
+flowchart LR
+    Signals[Industrial Signals] --> UV[Univariate SPM]
+    UV --> Shewhart[Shewhart / CUSUM / EWMA]
+    Signals --> MV[Multivariate SPM]
+    MV --> PCA[PCA Monitoring]
+    MV --> PLS[PLS Monitoring]
+    PCA --> Detection[Fault Detection]
+    PLS --> Detection
+    Detection --> Diagnosis[Contribution / Diagnosis]
+    Diagnosis --> Action[Engineering Interpretation]
+```
+
+## Skills Demonstrated
+
+- Statistical process monitoring for industrial systems.
+- Control chart design and performance evaluation.
+- PCA and PLS modeling for multivariate process data.
+- Fault detection and diagnosis with interpretable statistics.
+- Jupyter-based analytical storytelling with reproducible code.
+- Process engineering mindset: monitoring, diagnosis, and operational decision support.
+
 ## 目录
 
 - [项目简介](#项目简介)
